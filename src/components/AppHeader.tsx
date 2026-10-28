@@ -75,7 +75,6 @@ export function AppHeader({
         </div>
         <nav className="flex gap-2 overflow-x-auto pb-1 -mx-1 px-1">
           <Link to="/" className="chrome-btn" data-active={active === "form"}>📋 Survey Form</Link>
-          <Link to="/admin" className="chrome-btn" data-active={active === "admin"}>🛡️ Admin Panel</Link>
           <Link to="/qr" className="chrome-btn" data-active={active === "qr"}>🔳 QR Poster</Link>
           {actions}
         </nav>
